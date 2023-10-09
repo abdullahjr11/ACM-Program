@@ -202,3 +202,58 @@ main {
 .player-two-score {
   background-color: #f2b147;
 }
+@media (max-width: 460px) {
+  .middle ul {
+    width: 89%;
+    height: 500px;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    block-size: 76%;
+    flex: auto;
+  }
+
+  .middle > ul li {
+    width: 110px;
+    height: 110px;
+  }
+
+  .top {
+    width: 89%;
+    height: 20px;
+    margin: auto;
+    font-size: auto;
+  }
+  .bottom {
+    width: 89%;
+    height: 20px;
+    margin: auto;
+    padding: 6px;
+  }
+  .bottom ul {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+  .bottom ul li {
+    width: 60%;
+    margin-top: 3%;
+  }
+  .winner {
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    position: relative;
+  }
+  .restart-after-win {
+    padding: 2rem;
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: #2e4756;
+    justify-content: center;
+  }
+  .response {
+    position: relative;
+  }
+}
